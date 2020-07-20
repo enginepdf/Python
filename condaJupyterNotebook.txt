@@ -27,6 +27,16 @@ jupyter notebook
 
 pip install --upgrade pip      or pip3 install --upgrade pip
 
+pip install --upgrade virtualenv
+
+virtualenv --system-site-packages <directory-name>
+virtualenv --system-site-packages -p python3 <directory-name>   
+
+source ~/directory-name/bin/activate
+
+deactivate 
+
 pip install jupyter
 
 jupyter notebook
+
