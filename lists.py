@@ -1,6 +1,6 @@
 foods=['noodle','meat','vegetables','#']
 
-foods.pop() # foods.remove('#')
+foods.pop() # foods.remove('#'), foods.pop(3)
 foods.insert(3,'eggs')
 foods.extend(['ice cream','fishes'])
 
