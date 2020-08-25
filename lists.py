@@ -17,3 +17,6 @@ print(foods) # ['fruits', 'meat', 'vegetables', 'eggs', 'ice cream', 'fishes']
 print(lists) # ['fruits', 'meat', 'vegetables', 'eggs', 'ice cream', 'fishes']
 print(wishes) # ['sauces', 'meat']
 print(sliced) # ['sauces', 'meat', 'vegetables', 'eggs', 'ice cream', 'fishes']
+
+sliced.clear()
+print(sliced) # []
