@@ -19,3 +19,5 @@ myitems = items.copy()
 myitems.update({'car': None, 'driver': 'me'})
 print(myitems) # {12345: 'number', 'car': None, 'driver': 'me', 'snacks': ['pringles', 'cola'], 'is_on': True}
 print(items) # {12345: 'number', 'car': 'BMW', 'driver': 'Ed Sheeran', 'snacks': ['pringles', 'cola'], 'is_on': True}
+print(myitems.get('money')) # None
+print(myitems.get('money', 10000)) # 10000
