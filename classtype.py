@@ -37,3 +37,8 @@ print(item2.quantity) # 1
 
 item2.check(1) # do you want to order 1 item(s)?
 items.check(2) # do you want to order 2 item(s)?
+
+item3={'name':'iphoneSE', 'quantity':1}  # without encapsulation
+print(item3['name']) # iphoneSE
+print(item3['quantity']) # 1
+
