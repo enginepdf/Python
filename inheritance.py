@@ -1,9 +1,11 @@
 class State(): # State(object), State()
-    secondhand=False
+    def __init__(self, state=True):
+        self.new=state
 
 
 class Apple(State):
     def __init__(self, name, price):
+        State.__init__(self, True) # super().__init__(True)
         self.name = name
         self.price = price
 
@@ -28,4 +30,4 @@ def most_expensive(*args):
 print(f"{most_expensive(Mac, Iphone, Ipad)} is the most expensive one.")  # Macbook is the most expensive one.
 print(isinstance(Mac, Apple)) # True
 print(isinstance(Mac, State)) # True
-print(Mac.secondhand) # False
+print(Mac.new) # True
