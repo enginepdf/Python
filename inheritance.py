@@ -52,3 +52,5 @@ print(Mac.new) # True
 product=Product('Iphone',500,'Galaxy',500)
 
 product.displayS() # this is Galaxy
+product.displayA() # this is Galaxy
+print(Product.mro()) # method resolution order
