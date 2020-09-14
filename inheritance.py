@@ -54,3 +54,5 @@ product=Product('Iphone',500,'Galaxy',500)
 product.displayS() # this is Galaxy
 product.displayA() # this is Galaxy
 print(Product.mro()) # method resolution order
+# [<class '__main__.Product'>, <class '__main__.Apple'>, <class '__main__.Samsung'>, <class '__main__.State'>, <class 'object'>]
+print(Product.__mro__) # (<class '__main__.Product'>, <class '__main__.Apple'>, <class '__main__.Samsung'>, <class '__main__.State'>, <class 'object'>)
