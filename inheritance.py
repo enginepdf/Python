@@ -31,7 +31,7 @@ Mac = Apple("Macbook", 2000)
 Iphone = Apple("Iphone", 600)
 Ipad = Apple("Ipad", 600)
 
-# Find the oldest Apple
+
 def most_expensive(*args):
     name=''
     max=0
