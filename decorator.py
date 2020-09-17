@@ -14,7 +14,7 @@ test() # Second
 
 test1 = decorator_function(test)
 
-test1() # First Second
+test1() # First Second   # decorator_function(test)()
 
 
 @decorator_function
