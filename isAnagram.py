@@ -17,7 +17,7 @@ def isAnagram(str1, str2):
 str1="McDonald's restaurants" 
 str2="Uncle Sam's standard rot"
 
-print(isAnagram(str1, str2))
+print(isAnagram(str1, str2)) # True
 
 
 
