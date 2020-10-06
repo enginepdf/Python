@@ -13,3 +13,6 @@ print(num2) # 0.00100001
 print(round(num2,5)) # 0.001
 end=time.time()
 print('time:', end-start) # time: 7.200241088867188e-05
+
+
+    

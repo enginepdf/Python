@@ -51,5 +51,7 @@ print(setB.pop()) # 1
 print(setB) # {2}
 
 
+print({'a','b','c','d','e'}-{'a','b'}) # {'e', 'd', 'c'}
+
 
 
