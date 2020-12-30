@@ -47,9 +47,10 @@ print(setB.issuperset(setA)) # True
 
 
 setB.discard(3)
-print(setB.pop()) # 1
+print(setB.pop()) # 1, Remove and return an arbitrary element from the set
 print(setB) # {2}
-
+print(setB.pop()) # 2
+print(setB) # set()
 
 print({'a','b','c','d','e'}-{'a','b'}) # {'e', 'd', 'c'}
 
