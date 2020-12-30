@@ -21,7 +21,7 @@ def guessing1(guess3):
 def guessout():
     guess=2
     def guessin():
-        nonlocal guess
+        nonlocal guess # local variable outside of the function at the moment
         guess=500
     guessin()
     print(guess)
