@@ -13,3 +13,4 @@ items={
     ('snack','icecream'):['pringles', 'baskin rabins'],
 }
 print(items[('snack','icecream')]) # ['pringles', 'baskin rabins']
+print(items[('snack')]) # KeyError: 'snack'
