@@ -22,5 +22,5 @@ class Apple:
 Iphone=Apple('Iphone XS',700)
 
 Iphone(3) # in 3 days, it will be shipped
-print(Iphone['guarantee']) # 1 year
+print(Iphone['guarantee']) # 1 year  __getitem__ make this work
 del Iphone # order done
