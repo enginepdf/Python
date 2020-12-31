@@ -2,7 +2,7 @@ class cart(list):
   def __init__(self, market):
       self.market=market
 
-food_cart = cart("E-mart");
+food_cart = cart("E-mart")
 
 food_cart.append("ham")
 food_cart.append("chicken")
