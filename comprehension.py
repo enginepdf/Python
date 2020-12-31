@@ -4,6 +4,8 @@ print(items) # ['a', 'p', 'p', 'l', 'e']
 
 items1=[item for item in 'apple' if item=='a']
 
+print(items1) # ['a']
+
 set1={item for item in 'apple'}
 
 print(set1) # {'e', 'a', 'p', 'l'}
