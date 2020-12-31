@@ -8,7 +8,7 @@ print(type(item)) # <class '__main__.newobj'>
 
 class items:
     guarantee=True
-    def __init__(self, name, quantity):
+    def __init__(self, name, quantity):  # self for instance method
         if self.guarantee: # items.guarantee
             self.name=name
             self.quantity=quantity
@@ -17,7 +17,7 @@ class items:
         print(self.name)
 
     @classmethod
-    def order(cls, q):
+    def order(cls, q): # cls for class method
         return cls('Iphone11',q)
 
     @staticmethod
