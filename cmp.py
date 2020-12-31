@@ -16,3 +16,5 @@ print(100>150) # False
 print(100<150) # True
 print((100>150)-(100<150)) # -1
 print((150>100)-(150<100)) # 1
+print(True-False) # 1
+print(False-True) # -1
