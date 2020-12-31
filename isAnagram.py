@@ -5,7 +5,7 @@ import re
 worker = re.compile(r'\s+') 
 
 def isAnagram(str1, str2):
-    str1_list = list(worker.sub('',str1).lower())
+    str1_list = list(worker.sub('',str1).lower()) #  re.sub(pattern, target)
     str1_list.sort()
     print(str1_list)
     str2_list = list(worker.sub('',str2).lower())
