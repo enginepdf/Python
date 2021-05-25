@@ -22,3 +22,9 @@ def test2():
     print("Third")
 
 test2() # First Third
+
+
+decorator_function(test2)()
+# First
+# First
+# Third
